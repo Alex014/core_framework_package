@@ -3,7 +3,7 @@
     "type": "library",
     "description": "Core framework package. https://github.com/Alex014/core_framework_package and https://github.com/Alex014/Core",
     "require": {
-        "php": "^5.4"
+        "php": ">=5.4"
     },
     "keywords": [
         "package",
