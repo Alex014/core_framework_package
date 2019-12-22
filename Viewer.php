@@ -19,7 +19,7 @@ class Viewer implements iviewer {
         if(!empty($params))
             extract($params);
        
-        require __DIR__.'/../'.$template.'.php';
+        require _::$path_root.$template.'.php';
     }
     
     public function render($template, $params = '') {
@@ -27,7 +27,7 @@ class Viewer implements iviewer {
             extract($params);
         
         ob_start();
-        require __DIR__.'/../'.$template.'.php';
+        require _::$path_root.$template.'.php';
         $contents = ob_get_contents();
         ob_clean();
         

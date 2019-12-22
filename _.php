@@ -3,6 +3,7 @@ namespace core\framework;
 
 class _ {
     
+    public static $path_root = __DIR__.'/../../../';
     public static $path_di = __DIR__.'/../../../_/';
     private static $data;
     
@@ -73,15 +74,6 @@ class _ {
         }
     }
    
-    /**
-     * Set dependency injection path
-     * @param type $path_di
-     */
-    public static function init($path_di) {
-        $path_di = rtrim($str, '/').'/';
-        self::$path_di = $path_di;
-    }
-    
     /**
      * Has the container element ?
      * @param type $name
