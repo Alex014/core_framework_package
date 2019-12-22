@@ -31,9 +31,9 @@ class BaseFrontController implements icontroller {
     }
     
     public function runController() {
-        $result = \_::createAndCall($this->controller, $this->params, array('layout' => $this->layout));
+        $result = _::createAndCall($this->controller, $this->params, array('layout' => $this->layout));
         
-        $this->controller_object = \_::$object;
+        $this->controller_object = _::$object;
     }
     
     public function run() {

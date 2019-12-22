@@ -12,7 +12,7 @@ class BaseLayout {
     protected $viewer;
     
     public function __construct($viewer) {
-        \_::set('_objects.layout', $this);
+        _::set('_objects.layout', $this);
         $this->viewer = $viewer;
     }
 }
