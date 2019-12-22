@@ -1,6 +1,8 @@
 <?php
 namespace core\framework;
 
+use core\framework\_;
+
 /**
  * Description of BaseLayout
  *

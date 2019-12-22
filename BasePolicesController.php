@@ -1,6 +1,8 @@
 <?php
 namespace core\framework;
 
+
+use core\framework\_;
 use core\framework\interfaces\icontroller;
 use core\framework\interfaces\ipolices_controller;
 

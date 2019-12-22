@@ -1,6 +1,7 @@
 <?php
 namespace core\framework;
 
+use core\framework\_;
 use core\framework\interfaces\iviewer;
 
 /**
@@ -11,7 +12,7 @@ use core\framework\interfaces\iviewer;
 class Viewer implements iviewer {
     
     public function __construct() {
-        \_::set('_objects.view', $this);
+        _::set('_objects.view', $this);
     }
     
     public function view($template, $params = '') {
