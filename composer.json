@@ -2,8 +2,7 @@
     "name": "c_o_r_e/framework",
     "type": "library",
     "description": "Core framework package. https://github.com/Alex014/core_framework_package and https://github.com/Alex014/Core",
-    "version": "1.0.0",
-    "minimum-stability": "stable",
+    "version": "0.0.2",
     "require": {
         "php": ">=5.4"
     },
