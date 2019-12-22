@@ -1,0 +1,24 @@
+{
+    "name": "core/framework",
+    "type": "library",
+    "description": "Core framework package. https://github.com/Alex014/core_framework_package and https://github.com/Alex014/Core",
+    "require": {
+        "php": "^5.4"
+    },
+    "keywords": [
+        "package",
+        "dependency",
+        "autoload"
+    ],
+    "homepage": "https://github.com/Alex014/core_framework_package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksej Sokolov",
+            "email": "aleksej000@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"core\\framework\\": ""}
+    }
+}
