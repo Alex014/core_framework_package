@@ -1,5 +1,5 @@
 {
-    "name": "core/framework",
+    "name": "c_o_r_e/framework",
     "type": "library",
     "description": "Core framework package. https://github.com/Alex014/core_framework_package and https://github.com/Alex014/Core",
     "require": {
