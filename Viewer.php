@@ -18,7 +18,7 @@ class Viewer implements iviewer {
     public function view($template, $params = '') {
         if(!empty($params))
             extract($params);
-       
+        
         require _::$path_root.$template.'.php';
     }
     

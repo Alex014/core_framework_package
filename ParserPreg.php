@@ -29,6 +29,7 @@ class ParserPreg implements iparser {
         
         foreach ($this->routes['routes'] as $preg => $controller) {
             if(preg_match('/^'.$preg.'$/i', $route, $params)) {
+                array_shift($params);
                 return $controller;
             }
         }
